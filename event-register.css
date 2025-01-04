@@ -1,0 +1,116 @@
+body{
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  height: 100vh;
+}
+.event-header{
+  background-color: black;
+  padding: 6px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 3;
+}
+.header-name{
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.event-wrapper{
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: white;
+  position: absolute;
+  top: 19%;
+}
+.first-name-text{
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+.last-name-text{
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+.number-text{
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+.email-text{
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+.password-text{
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+.event-heading{
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px;
+}
+.register-button{
+  width: 90%;
+  border: none;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  padding: 6px;
+  margin: 6px 3px;
+}
+input{
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 6px;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  padding: 6px;
+  margin: 6px 3px;
+}
+.hide{
+  opacity: 0;
+  pointer-events: none;
+}
+.wrong{
+  border: 1px solid red;
+}
+.register-wrapper{
+  width: 98%;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.3s;
+}
+.login-text{
+  font-size: 12px;
+  font-weight: 500;
+}

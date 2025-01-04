@@ -1,0 +1,151 @@
+body{
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.event-wrapper{
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: white;
+  position: absolute;
+  top: 19%;
+}
+.event-header{
+  background-color: black;
+  padding: 6px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 3;
+}
+.header-name{
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.event-heading{
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px;
+}
+.main-events-wrapper{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+  margin-top: 30px;
+}
+.event-image{
+  width: 80%;
+  align-items: center;
+}
+.event-wrapped{
+  width: 98%;
+  padding: 6px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.event-name{
+  font-weight: bold;
+}
+.event-date{
+  font-size: 12px;
+  font-weight: 500;
+}
+.event-mc{
+  font-size: 12px;
+  font-weight: 500;
+}
+.event-feature{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.button-wrapper{
+  width: 98%;
+  padding: 6px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-next{
+  background-color: black;
+  color: white;
+  width: 90%;
+  padding: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.second-next{
+  background-color: black;
+  color: white;
+  width: 90%;
+  padding: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.third-next{
+  background-color: black;
+  color: white;
+  width: 90%;
+  padding: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.search-wrapper{
+  display: grid;
+  width: 98%;
+  padding: 6px;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  justify-content: space-between;
+  transition: all ease 0.3s;
+}
+.search-input{
+  width: 90%;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+.search-button{
+  width: 90%;
+  padding: 6px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+}
